@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(209, 236, 209);
+    
+}
+
+.cabeca{
+    background: #8fbc8f;
+    width: 100%;
+    height: 55px;
+    padding: 15px 5.5% 0;
+    font-size: 25pt;
+}
+.cabeca a{
+    text-decoration: none;
+    color: black;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input, label {
+    outline: none;
+}
+a {
+    color: blue;
+}
+
+    #main-container{
+        width: 500px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #8fbc8f;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0 0 5px black;
+    }
+    #main-container h1{
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 1.6rem; /* adaptada ao elemento root*/
+    }
+    
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    
+    .full-box {
+        flex: 1 1 100%;
+        position: relative;
+        
+        
+    }
+
+    .full-box input{
+        background: #8fbc8f;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    .half-box {
+        flex: 1 1 45%;
+        position: relative;
+        
+    }
+    .half-box input{
+        background: #8fbc8f;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        
+    }
+    
+    .spacing {
+        margin-right: 2.5%;
+    }
+
+
+    
+    label {
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    
+    input {
+        border-bottom:  2px solid #323232;
+        padding: 10px;
+        font-size: .9rem;
+        margin-bottom: 40px;
+    }
+    
+    input:focus {
+        border-color: rgb(209, 236, 209);
+    }
+    
+    input[type="submit"] {
+        background-color: rgb(209, 236, 209);
+        color: black;
+        border: none;
+        
+        border-radius: 20px;
+        height: 40px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover{
+        background: white;
+    }
+    
+    #agreement {
+        margin-right: 5px;
+        
+    }
+    .welde{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #agreement, #agreement-label {
+        display: inline-block;
+        width: auto;
+        
+    }
+    
+    /*validações*/
+    .error-validation {
+        color: #ff1a1a;
+        position: absolute;
+    }    
