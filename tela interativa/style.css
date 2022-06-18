@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    width: 80%;
+    height: 60%;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+}   
+.segundo-conteudo{
+    visibility: hidden;
+}
+.coluna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}    
+.primeira-coluna, .quarta-coluna{
+    width: 40%;
+    height: 100%;
+    z-index: 10;
+}
+.segunda-coluna, .terceira-coluna{
+    width: 60%;
+    height: 100%;
+}
+.tarja{
+    width: 10%;
+    height: 100%;
+    background-color: rgb(59, 59, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarja-direita{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.tarja-esquerda{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.termos-uso{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+}
+.termos-uso label{
+    color: white;
+    margin-top: 10px;
+}
+.card-parede{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;  
+}
+.btn{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-parede{    
+    background-color: rgb(59, 59, 72);
+    color: white;
+    box-shadow: 0 0 8px white;
+}
+.btn-cadastro{
+    background-color: white;
+    color: rgb(59, 59, 72);
+    box-shadow: 0 0 10px rgb(59, 59, 72);
+}
+.btn-cadastro:hover{
+    background-color: rgb(59, 59, 72);
+    color: white;
+    box-shadow: 0 0 10px rgb(119, 115, 115);
+    transition-duration: 0.5s;
+}
+.btn-parede:hover{
+    color: rgb(59, 59, 72);
+    background-color: white;
+    box-shadow: rgb(59, 59, 72);
+    transition-duration: 0.5s;
+}
+.informe{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(59, 59, 72);
+}
+.titulo{
+    margin-bottom: 10px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+.dados{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.nome-visitante{
+    width: 80%;
+}
+.sexo{
+    height: 30px;
+    border-radius: 20px;
+    border-color: rgb(59, 59, 72);
+    outline: none;
+    border-width: 2px;
+}
+.inp{
+    margin-bottom: 4%;
+    border-radius: 15px;
+    outline: none;
+    height: 30px;
+    border-color: rgb(59, 59, 72);
+    padding-left: 5px;
+    font-size: 15px; 
+}
+.inp::placeholder{
+    padding-left: 5px;
+    font-size: 15px;
+    color: rgb(59, 59, 72);
+}
+.fones, .senhas{
+    display: flex;
+    justify-content: space-between;
+}
+.fixo, .celular, .senha, .confirme-senha{
+    width: 49%;
+}
+.parede{
+    width: 32%;
+    height: 60%;
+    background-color: rgb(59, 59, 72);
+    position: absolute;
+    left: 10%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+}
