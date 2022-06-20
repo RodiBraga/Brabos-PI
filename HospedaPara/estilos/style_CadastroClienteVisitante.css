@@ -158,7 +158,7 @@
     font-size: 15px;
     color: rgb(59, 59, 72);
 }
-.fones, .dn-cpf, .senhas{
+.fones, .dn-cpf{
     display: flex;
     justify-content: space-between;
 }
@@ -167,28 +167,34 @@
 }
 
 .braca{
-    width: 45%;
+    width: 100%;
     height: 34px;
-    background-color: rgb(59, 59, 72);
     margin-bottom: 4%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 15px;
     position: relative;
+    
 }
 .l-senha{
-    width: 98%;
+    width: 90%;
     height: 30px;
     background-color: white;
     display: flex;
     align-items: center;
     border-radius: 15px;
-    position: absolute;
+    position: relative;
+    box-shadow: -5px 5px 5px black;
+    border: 2px;
+}
+.l-senha-esquerda{
+    margin-right: 5px;
 }
 .l-senha input{
     width: 88%;
     height: 30px;
+    font-size: 15px;
     border-radius: 15px;
     outline: none;
     border: none;
