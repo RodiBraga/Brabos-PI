@@ -33,7 +33,7 @@ h1{
     box-shadow: 0 0 5px black;
     flex-direction: column;
     padding: 40px 90px;
-    background-color: #8fbc8f;
+    background-color: rgb(59, 59, 72);
     border-radius: 20px;
     position: absolute;
     top: 120px;
