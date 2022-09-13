@@ -3,7 +3,7 @@
 $DB_SERVER = 'localhost';
     $DB_USER = 'root';
     $DB_PASSWORD = '';
-    $DB_NAME = 'pi';
+    $DB_NAME = 'hospeda';
 
     
     $link = mysqli_connect($DB_SERVER, $DB_USER, $DB_PASSWORD, $DB_NAME);
